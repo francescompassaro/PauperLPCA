@@ -15,10 +15,16 @@ git branch -M main
 git remote add origin https://github.com/francescompassaro/PauperLPCA.git
 git push -u origin main
 
-## CARICARE LE MODIFICHE
+## CARICARE LE MODIFICHE AL REPOSITORI REMOTO
 git add .
 git push -u origin main
 
+# SE VOGLIO SCARICARE AGGIORNAMENTI 
+git pull
+
+se da errore:
+git checkout --nomefile.estensione ripristica il file allo stato originale del repository
+e poi rifare il pull
 
 
 ## INSTALLAZIONE PROGETTO
